@@ -8,25 +8,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 </head>
 
-<h1>Healthscape</h1>
+<style type="text/css">
+    body {background: #DCCEE8 !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+</style>
 
-<div class="body">A place for all your mental health needs</div>
+<h1>Healthscape</h1>
 
 <!--Navigation Bar (top)-->
 <ul class="nav justify-content-end fixed-top">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">About</a>
+    <a class="nav-link active" aria-current="page" href="#About">About</a>
   </li>
 
   <li class="nav-item">
-    <a class="nav-link active" href="#">Talk to Someone</a>
+    <a class="nav-link active" href="#FAQs">Talk to Someone</a>
   </li>
 
   <li class="nav-item">
     <a class="nav-link active" href="#">FAQs</a>
-    <div>How do I log on?<br>To log on, simply create an account with your email ID and verify your email address through a link sent to you by HealthScape. Once the email is verified, you are ready to log in with your email and password!</div>
-    <div>Is my identity anonymous?<br>All the information provided will be kept anonymous and will not be shared with third-party services, unless otherwise requested. When you choose to use HealthScape to contact a therapist, your basic information will be shared with the appropriate organization. So please check the privacy policies of the organization you contact.</div>
-    <div>Who will I speak to?<br>There are so many options available at HeadScape! You can meet new people and talk to them through the chat feature. You can also talk to an expert of your choice online or in-person, the charges of the consultation will vary depending on the therapist. However, HeadScape has many therapists who provide their services for free or at a very low cost. </div>
   </li>
   </li>
 
@@ -39,10 +38,9 @@
 <body>
 
 <!--About/Talk/FAQ section-->
-
   <!--About-->
   <div>
-    <h1 class="title-headings">About</h1>
+    <h1 id="About" class="title-headings">About</h1>
   </div>
 
   <!--FAQ Accordions-->
